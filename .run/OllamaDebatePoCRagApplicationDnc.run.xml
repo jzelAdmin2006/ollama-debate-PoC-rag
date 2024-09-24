@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="OllamaDebatePoCRagApplicationDnc" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <envs>
+      <env name="PARTY" value="dnc" />
+      <env name="PORT" value="8082" />
+      <env name="PGVECTOR_PORT" value="5433" />
+    </envs>
+    <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+    <module name="ollama-debate-PoC-rag.main" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.jzel.ollamadebatepocrag.OllamaDebatePoCRagApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
