@@ -46,3 +46,9 @@ tasks.named('test') {
 tasks.withType(JavaCompile).configureEach {
     options.compilerArgs += '--enable-preview'
 }
+
+bootRun {
+    jvmArgs = [
+            '--enable-preview'
+    ]
+}
